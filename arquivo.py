@@ -18,8 +18,7 @@ st.set_page_config(page_title="Cuidados", layout="wide", page_icon="🧹")
 def carregar_dados(caminho_arquivo):
     # Carrega todas as abas do Excel
     xls = pd.ExcelFile(caminho_arquivo)
-
-    # TODO: BUG AQUI!!
+    
     abas_anos = [sheet for sheet in xls.sheet_names if "(CV)" not in sheet]
 
     dados_totais = []
