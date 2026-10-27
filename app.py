@@ -6,7 +6,7 @@
 # > pip install plotly
 
 # Instale a extensão "Streamlit Runner" no VSCode
-# Para rodar o arquivo, clique com o botão direito e selecione "Run with Streamlit"
+# Para rodar o arquivo, clique com o botão direito e selecione "Run with Streamlit" OU execute no terminal "python -m streamlit run app.py"
 
 import streamlit as st
 import pandas as pd 
